@@ -6,8 +6,22 @@ html, body {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-/* Header
+body {
+    display: flex;
+    flex-direction: column;
+}
 
-/* Body
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
 
-/* Footer
+main {
+    flex: 1 0 auto;
+    background-color: white;
+}
+
+/* Header */
+
+/* Body */
+
+/* Footer */
