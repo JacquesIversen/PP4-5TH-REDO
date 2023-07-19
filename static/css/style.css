@@ -13,7 +13,6 @@ body {
     position: relative;
     margin: 0;
     padding-bottom: 6rem;
-    min-height: 100%;
 }
 
 h1,
@@ -31,11 +30,15 @@ main {
 }
 
 a {
-    text-decoration: none;
-    color: white;
+    text-decoration: underline;
+    color: green;
 }
 
 /* Header */
+
+.logo {
+    max-height: 100px;
+}
 
 /* Body */
 
@@ -93,3 +96,13 @@ hr.rounded {
 
 
 /* Footer */
+
+
+/* Sign in, log in and logout pages */
+
+.form-style {
+    background-color: bisque;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+    color: #000;
+    display: block;
+}
