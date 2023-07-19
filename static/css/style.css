@@ -24,4 +24,14 @@ main {
 
 /* Body */
 
+#home-bg-img {
+    height: 40vh;
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+
 /* Footer */
