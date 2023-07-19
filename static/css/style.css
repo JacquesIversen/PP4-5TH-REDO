@@ -4,6 +4,7 @@ html, body {
     height: 100%;
     font-family: 'Days One', sans-serif;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: gray;
 }
 
 body {
@@ -20,6 +21,12 @@ main {
     background-color: white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
 /* Header */
 
 /* Body */
@@ -30,8 +37,13 @@ main {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(50%);
 }
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
 
 
 /* Footer */
+
